@@ -12,7 +12,7 @@ def gradient_f(x: float, y: float) -> tuple:
         - A tuple (∂f/∂x, ∂f/∂y) for the given values of x and y.
     '''
     # Your code here
-    return (2*x+2,2*y+4)
+    return (2*x+2,2*y+4) 
 
 def gradient_descent(starting_values: tuple, learning_rate: float, num_iterations: int) -> tuple:
     '''
